@@ -38,6 +38,10 @@ textarea{
 	border-color: white;
 }
 
+#button-holder{
+	padding: 0px 40px;
+}
+
 .btn{
 	font-family: 'Cutive', serif;
 	font-size: 30px;
@@ -54,14 +58,40 @@ button{
 	border-radius: 35px;
 	text-align: center;
 	margin: 20px;
-	font-size: 24px;
+	font-size: 16px;
 	text-align: center;
 	padding: 20px;
+	width: 150px;
 }
 
 #giphy-holder{
-	width: 1300px;
+	width: 1250px;
 	height: 300px;
 	overflow: auto;
-	margin: 20px;
+	margin: auto;
+	padding: 20px;
+	margin-bottom: 30px;
+}
+
+img{
+	width: 300px;
+	float: left;
+}
+
+p{
+	float: left;
+
+}
+
+footer{
+	width:100%;
+	padding: 20px 0;
+  clear: both;
+  height: 15px;
+	left: 0;
+  bottom: 0;
+  background-color: #0b1a33;
+  color: white;
+  margin: auto;
+  font-size: 12px;
 }

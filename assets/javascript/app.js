@@ -1,5 +1,5 @@
 //keywords to render buttons at start of app
-topics = ["eye-roll", "whatever", "excited", "annoyed", "mad"];
+topics = ["eye-roll", "flirt", "excited", "annoyed", "mad", "love", "anxious", "exhausted", "crying"];
 
 function generateButton(){
 	var button = $("<button>");
@@ -43,6 +43,8 @@ $(document).on("click", "button", function() {
 	 		//adds rating to the bottom of ea image
 	 		var rating = $("<p> Rated: " + response.data[i].rating.toUpperCase() + "</p>");
 	 		$("#giphy-holder").append(rating);
+
+	 		//i want <div class="box"><img ...><p></p></div>
 		};
 
 	}).fail(function() {
