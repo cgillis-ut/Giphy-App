@@ -11,7 +11,7 @@ for (var i = 0; i < topics.length; i++) {
 }
 $(document).on("click", "button", function() {
 	var buttonVal = $(this).text();
-	var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + buttonVal + "&api_key=dc6zaTOxFJmzC&limit=10";
+	var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + buttonVal + "&api_key=dc6zaTOxFJmzC&limit=10";
 	//make api call using text on button
 	$.ajax({
 		url: queryURL,
