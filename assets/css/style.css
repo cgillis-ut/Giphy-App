@@ -1,29 +1,25 @@
-body{
-	background: -webkit-linear-gradient(to left, #f857a6 , #ff5858);
-	background: linear-gradient(to left, #f857a6 , #ff5858); 
+body {
+	background: -webkit-linear-gradient(to left, #f857a6, #ff5858);
+	background: linear-gradient(to left, #f857a6, #ff5858);
 	text-align: center;
 	color: white;
 	font-size: 18px;
 	font-family: 'Cutive Mono', monospace;
 	margin: auto;
-
-}    
-
-label{
+}
+label {
 	font-family: 'Cutive', serif;
 	font-size: 60px;
 	color: white;
 	font-weight: bolder;
 }
-
-.form{
+.form {
 	margin: auto;
 	margin-top: 35px;
 	width: 70%;
 	padding: 25px;
 }
-
-textarea{
+input {
 	background-color: #0b1a33;
 	color: white;
 	border-radius: 50px;
@@ -37,20 +33,16 @@ textarea{
 	border-width: 2px;
 	border-color: white;
 }
-
-#button-holder{
+#button-holder {
 	padding: 0px 40px;
 }
-
-.btn{
+.btn {
 	font-family: 'Cutive', serif;
 	font-size: 30px;
 	margin-top: 150px;
 	color: white;
-
 }
-
-button{
+button {
 	border-width: 2px;
 	border-color: white;
 	background-color: #0b1a33;
@@ -63,8 +55,7 @@ button{
 	padding: 20px;
 	width: 150px;
 }
-
-#giphy-holder{
+#giphy-holder {
 	width: 1250px;
 	height: 300px;
 	overflow: auto;
@@ -72,26 +63,31 @@ button{
 	padding: 20px;
 	margin-bottom: 30px;
 }
-
-img{
+img {
 	width: 300px;
 	float: left;
+	border-width: 1px;
+	border-color: white;
+	border-style: solid;
 }
-
-p{
+p {
 	float: left;
-
 }
-
-footer{
-	width:100%;
+footer {
+	width: 100%;
 	padding: 20px 0;
-  clear: both;
-  height: 15px;
+	clear: both;
+	height: 15px;
 	left: 0;
-  bottom: 0;
-  background-color: #0b1a33;
-  color: white;
-  margin: auto;
-  font-size: 12px;
+	bottom: 0;
+	background-color: #0b1a33;
+	color: white;
+	margin: auto;
+	font-size: 12px;
+}
+.div-box {
+	display: block;
+	width: 220px;
+	float: left;
+	margin: 10px 50px;
 }
