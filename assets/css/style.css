@@ -1,0 +1,67 @@
+body{
+	background: -webkit-linear-gradient(to left, #f857a6 , #ff5858);
+	background: linear-gradient(to left, #f857a6 , #ff5858); 
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	font-family: 'Cutive Mono', monospace;
+	margin: auto;
+
+}    
+
+label{
+	font-family: 'Cutive', serif;
+	font-size: 60px;
+	color: white;
+	font-weight: bolder;
+}
+
+.form{
+	margin: auto;
+	margin-top: 35px;
+	width: 70%;
+	padding: 25px;
+}
+
+textarea{
+	background-color: #0b1a33;
+	color: white;
+	border-radius: 50px;
+	width: 650px;
+	height: 60px;
+	font-size: 44px;
+	text-align: center;
+	padding: 10px;
+	resize: none;
+	overflow: none;
+	border-width: 2px;
+	border-color: white;
+}
+
+.btn{
+	font-family: 'Cutive', serif;
+	font-size: 30px;
+	margin-top: 150px;
+	color: white;
+
+}
+
+button{
+	border-width: 2px;
+	border-color: white;
+	background-color: #0b1a33;
+	color: white;
+	border-radius: 35px;
+	text-align: center;
+	margin: 20px;
+	font-size: 24px;
+	text-align: center;
+	padding: 20px;
+}
+
+#giphy-holder{
+	width: 1300px;
+	height: 300px;
+	overflow: auto;
+	margin: 20px;
+}

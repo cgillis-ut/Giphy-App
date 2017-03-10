@@ -41,7 +41,7 @@ $(document).on("click", "button", function() {
 	        }).appendTo("#giphy-holder");
 
 	 		//adds rating to the bottom of ea image
-	 		var rating = $("<p>" + response.data[i].rating + "</p>");
+	 		var rating = $("<p> Rated: " + response.data[i].rating.toUpperCase() + "</p>");
 	 		$("#giphy-holder").append(rating);
 		};
 
@@ -67,9 +67,12 @@ $(document).on("click", "img", function() {
 /*takes user input and creates dynamic button, 
 button will then make api call bc of element name */
 $(document).on("click", "#user-button", function() {
+	    event.preventDefault();
+
 	var userMood = $("#user-input").val().trim();
 
 	var userButton = $("<button>");
 	userButton.text(userMood);
 	$("#button-holder").append(userButton);
 });
+
